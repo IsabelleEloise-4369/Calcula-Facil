@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-v1-v2.css">
+    <title>Operações</title>
+</head>
+
+<body>
+    <section>
+        <div class="container-sec01">
+
+            <!-- AQUI COMEÇA O CONTAINER DO BOTÃO -->
+            <div class="container-btn">
+
+                <!-- TODOS OS BOTÕES DAS OPERAÇÕES -->
+                <div class="container-btn__operacoes">
+
+                    <!-- DEFINIMOS AS VARIAVEIS  DENTRO DO ONCLICK ANTES MESMO DE CHAMAR NO JS -->
+                    <button onclick="somar()">SOMAR</button>
+                    <button onclick="subtrair()">SUBTRAIR</button>
+                    <button onclick="multiplicar()">MULTIPLICAR</button>
+                    <button onclick="dividir()">DIVIDIR</button>
+                    <button onclick="porcentagem()">PORCENTAGEM</button>
+
+                </div>
+
+
+                <!-- BOTÃO DE LIMPAR -->
+                <div class="container-btn__limpar">
+                    <button onclick="limpar()">LIMPAR</button>
+                </div>
+
+
+            </div>
+
+            <!-- AQUI VAI O RESULTADO -->
+            <div class="resultado" id="resultado"></div>
+        </div>
+    </section>
+
+    <script src="operadores-v2.js"></script>
+
+</body>
+
+</html>
